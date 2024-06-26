@@ -1,8 +1,8 @@
 # CV
 
-![alt text](image.png)
+![alt text](Ава.png)
 
-## Heading Прудников Сергей
+## Прудников Сергей
 
 * Контакты:
 + discord: sergei_06009 Сергей (@Sergei-FM )
