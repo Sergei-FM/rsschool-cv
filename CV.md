@@ -1,6 +1,6 @@
 # CV
 
-![alt text](Ава.png)
+![alt text](Ава_little.png)
 
 ## Прудников Сергей
 
