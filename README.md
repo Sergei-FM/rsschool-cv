@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://Sergei-FM.github.io/rsschool-cv/CV
+https://Sergei-FM.github.io/rsschool-cv/cv
