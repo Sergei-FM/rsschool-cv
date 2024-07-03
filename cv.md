@@ -1,6 +1,6 @@
 **Sergei Prudnikov**
 
-![alt text](Ава_little.png)
+![alt text](ava.png)
 
 **Contacts:**
 * discord: sergei_06009 Сергей (@Sergei-FM )
