@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Wittgenstein-VariableFont_wght;
+    src: url("assets/fonts/Wittgenstein-VariableFont_wght.ttf");
+  }
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container {
+   max-width: 1440px;
+   margin: 0 auto;
+  }
+
+.header {
+   width: 100%;
+   
+   background-color: rgba(199, 199, 199, 0.966);
+   font-family: Wittgenstein-VariableFont_wght;
+
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .nav-link {
+    
+    padding: 20px;
+    line-height: 50px;
+  }
+
+  .nav-link {
+    transition: 0.3s;
+  }
+
+.main {
+    width: 100%;
+    background-color: rgb(178, 240, 231);
+    font-family: Wittgenstein-VariableFont_wght;
+}
+
+.main-info {
+    padding-bottom: 0;
+    display: flex;
+  }
+
+.ava {
+    padding-top: 10px;
+    padding-left: 30px;
+
+  }
+
+  .name-info {
+    margin: 20px auto;
+  }
+
+.footer-info {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.footer {
+    width: 100%;  
+    height: 60px;
+    
+    background-color: rgba(182, 182, 182, 0.966);
+    font-family: Wittgenstein-VariableFont_wght;
+}
+.logotip {
+    padding-top: 10px;
+    width: 110px;
+}
