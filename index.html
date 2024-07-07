@@ -5,18 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 <body>
-    <header class="header"> 
 
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#About me" class="nav-link">About me</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+          </div>
     </header>
 
-    <main class="Main">
+    <main class="main">
+        <div class="container">
+            <section class="section main-info">
+                <div class="ava">
+                    <img src="ava.png" alt="ava">
+                </div>
+                <div class="name-info">                
+                    <h1>Sergei Prudnikov</h1>                
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul class="profile">
+                    <li>discord: sergei_06009</li>
+                    <li>GitHub: <a href="https://github.com/Sergei-FM">Sergei-FM</a></li>
+                    <li>Email: <a href="mailto:abusupply@mail.ru">abusupply@mail.ru</a></li>
+                    <li>phone,whatsapp: +79037163085</li>
+                </ul>
+            </section>
+            <section class="section" id="about">
+                <h2>About Me</h2>
+                <p> I’m 46 years old. I decided to change my occupation. 
+                    I have been managing purchasing departmens for 12 years. 
+                    I want to become a project manager at IT. 
+                    To begin with, I decided to study the javascript. And here I am.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>managing people</li>
+                    <li>strategic planning</li>
+                    <li>conducting negotiations</li>                   
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <p> International School of management and business / Organization manager, 
+                    Organization management</p>               
+            </section>
+            <section class="section" id="languages">
+                <h2>Languages</h2>
+                <ul class="info">
+                    <li>Russian - native language</li>
+                    <li>English - A1 (14 years ago it was advanced level, but hasn’t practiced sinse)</li>
+                </ul>
+            </section>
+        </div>
+
 
     </main>
 
     <Footer class="footer">
-
+        <div class="footer-info">
+            <a href="https://github.com/Sergei-FM">My profile by GitHub</a>
+            <p>© 2024</p>
+            <a href="https://rs.school/courses/javascript-ru"><img class="logotip" src=./assets/img/rs-school-logo.svg alt="rs-school-logo>"></a>
+        </div>
     </footer>
     
 </body>
